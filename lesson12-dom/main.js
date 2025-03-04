@@ -25,10 +25,8 @@
 // img_.src = "https://i.pinimg.com/474x/5e/af/81/5eaf81c562fe30fb9f921184cced7acf.jpg"
 // console.dir(img_)
 
+const btn_ = document.querySelector(".say");
 
-const btn_ = document.querySelector(".say")
-
-
-btn_.addEventListener("click", ()=>{
-    alert("Hello World")
-})
+btn_.addEventListener("click", () => {
+  alert("Hello World");
+});
